@@ -103,7 +103,7 @@ jobs:
         with:
           tag_name: ${{ env.LATEST_TAG }}
           name: "PassWall2-${{ env.LATEST_TAG }}"
-          files: makeself/passwall_*.run
+          files: makeself/passwall2_*.run
           token: ${{ secrets.GITHUB_TOKEN }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
